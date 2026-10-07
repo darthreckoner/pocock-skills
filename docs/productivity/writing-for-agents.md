@@ -1,3 +1,5 @@
+> **Archived.** This skill was removed from the plugin in v1.4.0. Its writing guide now lives in a personal `skill-creator` skill (extended from Anthropic's, maintained outside this repo), as `references/writing-for-agents.md` (with the skill mechanics beside it in `references/skill-mechanics.md`). The page stays up for reference.
+
 ## What it does
 
 `writing-for-agents` is the reference for writing agent-facing documents: a skill, an `AGENTS.md` or `CLAUDE.md`, a [spec](https://www.aihero.dev/ai-coding-dictionary/spec), a runtime prompt, a README, any doc an [agent](https://www.aihero.dev/ai-coding-dictionary/agent) reads. The format differs, but the writing does not. The same levers make each one predictable, so the agent follows the same *process* on every run (not necessarily to the same output).

@@ -76,6 +76,6 @@ grill-with-docs → to-spec → to-tickets → implement → code-review → ret
 Run it after a build worth learning from, in the same session or pointed at that session's log. You can skip it after a smooth build.
 
 - [code-review](https://aihero.dev/skills-code-review) is the reviewer agent that `retro` most often tunes. New coding standards go where its Standards axis reads them.
-- [writing-for-agents](https://aihero.dev/skills-writing-for-agents) sets the writing style for every steering file and skill that `retro` proposes, and `retro` loads it before it starts.
+- `skill-creator` (a personal skill extended from Anthropic's, outside this repo) carries the writing guide that sets the style for every steering file and skill that `retro` proposes, and `retro` loads it before it starts. It replaced [writing-for-agents](https://aihero.dev/skills-writing-for-agents).
 
 [ask-matt](https://aihero.dev/skills-ask-matt) routes across the whole set when you are unsure which skill the situation needs.
